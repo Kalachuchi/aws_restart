@@ -1,6 +1,6 @@
 import re
 
-with open('preproinsulin-seq.txt') as f:
+with open("preproinsulin-seq.txt") as f:
     text = f.read()
 
 text = text.replace("ORIGIN", "").replace("//", "")

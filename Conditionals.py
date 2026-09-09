@@ -1,7 +1,9 @@
 userReply = input("Do you need to ship a package? (Enter Yes or no)")
 if userReply == "Yes":
     print("We can help you ship that package!")
-    userReply = input("Would you like to buy stamps, buy an envelope, or make a copy? (Enter stamps, envelope, or copy) ")
+    userReply = input(
+        "Would you like to buy stamps, buy an envelope, or make a copy? (Enter stamps, envelope, or copy) "
+    )
     if userReply == "stamps":
         print("We have many stamp designs to choose from.")
     elif userReply == "envelope":
@@ -13,5 +15,3 @@ if userReply == "Yes":
         print("Thank you, please come again.")
 else:
     print("Please come back when you need to ship a package. Thank you.")
-
-
